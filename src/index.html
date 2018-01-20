@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>bitcoin, blockchain</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="slide" id="slide-title">
+      <div><h1>bitcoin, blockchain</h1></div>
+    </div>
+    <div class="slide theme-intro" id="slide-intro">
+      <div class="header"><h2>introduction</h2></div>
+      <div class="content">
+        <div class="canvas-container">
+          <canvas id="intro-canvas"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="slide theme-addresses" id="slide-addresses">
+      <div class="header"><h2>bitcoin addresses</h2></div>
+      <div class="content">
+        <div>
+          <p>The following is an example of a bitcoin address.</p>
+          <p id="sample-address">16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM</p>
+          <p>Addresses are derived from public keys<br />
+            using the SHA-256 and RIPEMD-160 algorithms<br />
+            and by adding a version number and a checksum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide" id="slide-ecc">
+      <div class="header"><h2>elliptic curve cryptography</h2></div>
+      <div class="content">
+        <div>
+          <div class="canvas-container">
+            <canvas id="ecc-canvas"></canvas>
+          </div>
+          <p id="ec-curve-equation"><span>y<sup>2</sup> = x<sup>3</sup> - ax + b</span></p>
+          <form id="ecc-eq-parameters-form">
+            a: <input id="ecc-eq-a" type="text" />
+            b: <input id="ecc-eq-b" type="text" />
+            <input type="submit" value="" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="slide theme-addresses" id="slide-wallets">
+      <div class="header"><h2>wallets</h2></div>
+      <div class="content">
+        <div>
+          <object data="image/wallet-types.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+    </div>
+    <div class="slide theme-blockchain" id="slide-blockchain">
+      <div class="header"><h2>transactions and the blockchain</h2></div>
+      <div class="content">
+        <div>
+          <object data="image/blockchain.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+    </div>
+    <div class="slide theme-blockchain" id="slide-anatomy-of-a-block">
+      <div class="header"><h2>the anatomy of a block</h2></div>
+      <div class="content">
+        <div>
+          <object data="image/anatomy-of-a-block.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+    </div>
+    <div class="slide theme-blockchain" id="slide-block-header">
+      <div class="header"><h2>block header</h2></div>
+      <div class="content">
+        <div>
+          <object data="image/block-header.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+    </div>
+    <div class="slide theme-blockchain" id="slide-mining-reward">
+      <div class="header"><h2>mining rewards</h2></div>
+      <div class="content">
+        <div>
+          <div class="canvas-container">
+            <canvas id="mining-reward-canvas"></canvas>
+          </div>
+          <p class="short-description">Miners receive reward after each new block,
+            plus they are entitled to collecting transaction fees.<br />
+            The value of a new block is reduced to it's half every 4 years.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide theme-blockchain" id="slide-bitcoin-supply">
+      <div class="header"><h2>bitcoin supply</h2></div>
+      <div class="content">
+        <div>
+          <div class="canvas-container">
+            <canvas id="bitcoin-supply-canvas"></canvas>
+          </div>
+          <p class="short-description">The original intention is to mine 21 million bitcoins altogether by the time
+            around 2140.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide theme-conclusion" id="slide-conclusion">
+      <div class="header"><h2>conclusion</h2></div>
+      <div class="content">
+        <div>
+          <p>While bitcoin's future is quite uncertain, the technology behind it<br />
+            can be used widely. Some compare it's significance to the invention<br />
+            of the internet. It has it's disadvantages though and pretenders<br />
+            are starting to emerge.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide" id="slide-last-block">
+      <div><p>LAST BLOCK</p></div>
+    </div>
+    <script src="slideshow.js"></script>
+  </body>
+</html>

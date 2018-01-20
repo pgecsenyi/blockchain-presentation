@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="block-header.svg">
+  <defs
+     id="defs4">
+    <style type="text/css">
+    @font-face {
+      font-family: 'ubuntu';
+      src: url('../font/ubuntu.ttf') format('truetype');
+    }
+    </style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="990.94187"
+     inkscape:cy="630.24904"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     showguides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,27.637839)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#555555;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 260.0001,292.80809 1399.9998,0"
+       id="path4379"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="287.14053"
+       y="250.92972"
+       id="text4249-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="287.14053"
+         y="250.92972"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351">VERSION</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1619.1254"
+       y="250.91096"
+       id="text4249-2-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1619.1254"
+         y="250.91096"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:end;text-anchor:end;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-19">4</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#555555;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 260.0001,402.58981 1399.9998,0"
+       id="path4379-6"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="284.29053"
+       y="360.71146"
+       id="text4249-2-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="284.29053"
+         y="360.71146"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-6">BLOCKHASH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1620.3629"
+       y="360.71146"
+       id="text4249-2-0-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1620.3629"
+         y="360.71146"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:end;text-anchor:end;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-19-8">1FF3</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#555555;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 260,625.33503 1400,0"
+       id="path4379-6-1"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="286.91553"
+       y="580.2749"
+       id="text4249-2-2-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="286.91553"
+         y="580.2749"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-6-3">TIMESTAMP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1620.012"
+       y="580.2749"
+       id="text4249-2-0-1-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1620.012"
+         y="580.2749"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:end;text-anchor:end;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-19-8-7">Jan 16, 2018 08:00:16 PM</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#555555;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 260,731.93496 1400,0"
+       id="path4379-6-1-2"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="286.91553"
+       y="690.05664"
+       id="text4249-2-2-3-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="286.91553"
+         y="690.05664"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-6-3-5">TARGET THRESHOLD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1619.4254"
+       y="690.0379"
+       id="text4249-2-0-1-2-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1619.4254"
+         y="690.0379"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:end;text-anchor:end;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-19-8-7-2">4D20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="284.29053"
+       y="799.83838"
+       id="text4249-2-2-3-0-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="284.29053"
+         y="799.83838"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-6-3-5-2">NONCE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1619.4254"
+       y="799.83838"
+       id="text4249-2-0-1-2-9-9"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1619.4254"
+         y="799.83838"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:end;text-anchor:end;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-19-8-7-2-5">2196508240</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#555555;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 260.0001,512.37152 1399.9998,0"
+       id="path4379-6-3"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="284.29053"
+       y="470.49316"
+       id="text4249-2-2-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="284.29053"
+         y="470.49316"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:start;text-anchor:start;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-6-30">PREVIOUS BLOCK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1619.4254"
+       y="470.49316"
+       id="text4249-2-0-1-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="1619.4254"
+         y="470.49316"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:ubuntu;-inkscape-font-specification:ubuntu;text-align:end;text-anchor:end;fill:#555555;fill-opacity:1;stroke:none"
+         id="tspan4351-19-8-5">5E10</tspan></text>
+  </g>
+</svg>

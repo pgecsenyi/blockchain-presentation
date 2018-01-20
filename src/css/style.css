@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'ubuntu';
+  src: url('../font/ubuntu.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: "ubuntu", Lucida, Verdana, sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 8em;
+}
+h2 {
+  box-shadow: 0.05em 0.05em 0.3em #BBB;
+  font-size: 2.0em;
+  margin: 0 0 0.5em 0;
+  padding: 0.4em 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+input {
+  outline: none;
+}
+
+.slide {
+  display: table;
+  height: 100%;
+  position: absolute;
+  overflow: hidden; /* For Chromium to remove horizontal scrollbar. */
+  width: 100%;
+}
+.slide > .content {
+  display: table-row;
+  height: 95%;
+}
+.slide > .header {
+  display: table-row;
+  height: 5%;
+}
+.slide > .header > h2 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.theme-addresses {
+  background-color: #EEE;
+  color: #555;
+}
+.theme-addresses h2 {
+  background-color: #6A23DD;
+  color: #EEE;
+}
+.theme-blockchain {
+  background-color: #EEE;
+  color: #555;
+}
+.theme-blockchain h2 {
+  background-color: #3084C9;
+  color: #EEE;
+}
+.theme-conclusion {
+  background-color: #EEE;
+  color: #555;
+}
+.theme-conclusion h2 {
+  background-color: #EEE;
+  color: #555;
+}
+.theme-intro {
+  background-color: #EEE;
+  color: #555;
+}
+.theme-intro h2 {
+  background-color: #F47D3D;
+  color: #EEE;
+}
+
+#slide-addresses p {
+  font-size: 2.0em;
+  margin: 1.5em;
+  padding: 0.5em;
+}
+#slide-addresses > .content > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#slide-addresses #sample-address {
+  background-color: #EEE;
+  border: 0.05em solid #BBB;
+  box-shadow: 0.05em 0.05em 0.2em #BBB;
+  color: #6A23DD;
+  display: inline;
+  font-family: "Courier New", sans-serif;
+  font-size: 2.2em;
+  margin: 0.3em;
+  padding: 0.5em 1.0em;
+}
+
+#slide-anatomy-of-a-block > .content > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#slide-anatomy-of-a-block > .content > div > object {
+  max-width: 70%;
+}
+
+#slide-bitcoin-supply p {
+  font-size: 2.0em;
+  margin: 3.5em;
+}
+#slide-bitcoin-supply > .content > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#slide-bitcoin-supply .canvas-container {
+  margin: 3em auto;
+  width: 60%;
+}
+
+#slide-blockchain > .content > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#slide-blockchain > .content > div > object {
+  max-width: 70%;
+}
+
+#slide-block-header > .content > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#slide-block-header > .content > div > object {
+  max-width: 70%;
+}
+
+#slide-conclusion > .content > div {
+  display: table-cell;
+  font-size: 2.2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#slide-ecc > .content > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#slide-ecc .canvas-container {
+  margin: 1em auto;
+  width: 60%;
+}
+#slide-ecc .canvas-container > canvas {
+  border: 0.2em solid #000;
+}
+#slide-ecc #ec-curve-equation {
+  font-size: 2.5em;
+  margin: 2em 1em 1em 1em;
+  text-align: center;
+}
+#ecc-eq-parameters-form {
+  display: none;
+  font-size: 2.5em;
+  margin: 1.85em 1em 1em 1em;
+}
+#ecc-eq-parameters-form input[type=text] {
+  border: none;
+  border-bottom: 0.05em solid #000;
+  font-size: 0.9em;
+  margin: 0 1.5em 0 0;
+  padding: 0.2em 0;
+  text-align: right;
+  width: 2em;
+}
+#ecc-eq-parameters-form input[type=submit] {
+  background: url('../image/submit.svg') center no-repeat;
+  border: none;
+  cursor: pointer;
+  height: 32px;
+  padding: 2em;
+  width: 32px;
+}
+
+#slide-intro .canvas-container {
+  margin: 1em auto;
+  text-align: center;
+  width: 85%;
+}
+
+#slide-last-block > div {
+  background: #000;
+  color: #999;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#slide-last-block > div > p {
+  font-size: 1.5em;
+}
+
+#slide-mining-reward p {
+  font-size: 2.0em;
+  margin: 3.5em;
+}
+#slide-mining-reward > .content > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#slide-mining-reward .canvas-container {
+  margin: 3em auto;
+  width: 60%;
+}
+
+#slide-title > div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#slide-wallets > .content > div {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#slide-wallets > .content > div > object {
+  max-width: 70%;
+}
