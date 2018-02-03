@@ -6,15 +6,15 @@ import { CurvePlotterOrchestrator, CurvePlotterOrchestratorProperties } from './
 import { ScaleCalculator } from './scale-calculator';
 
 export default {
-    AxisProperties,
-    AxisVisual,
-    CurvePlotterOrchestrator,
-    CurvePlotterOrchestratorProperties,
-    CurvePointsProperties,
-    CurvePointsVisual,
-    CurveProperties,
-    CurveVisual,
-    LinesProperties,
-    LinesVisual,
-    ScaleCalculator
+  AxisProperties,
+  AxisVisual,
+  CurvePlotterOrchestrator,
+  CurvePlotterOrchestratorProperties,
+  CurvePointsProperties,
+  CurvePointsVisual,
+  CurveProperties,
+  CurveVisual,
+  LinesProperties,
+  LinesVisual,
+  ScaleCalculator
 };

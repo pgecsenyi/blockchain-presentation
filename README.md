@@ -38,6 +38,6 @@ The _left_ and _right_ arrow buttons can be used to navigate between the slides.
 ## Development environment
 
   * Yarn 0.27.5
-  * Visual Studio Code 1.19.2
-  * Mozilla Firefox 57.0.4
+  * Visual Studio Code 1.19.3
+  * Mozilla Firefox 58.0.1
   * Chromium 61.0

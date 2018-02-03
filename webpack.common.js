@@ -12,6 +12,7 @@ module.exports = {
     path: distDirectory,
     filename: 'slideshow.js'
   },
+
   module: {
     loaders: [
       {
@@ -40,6 +41,7 @@ module.exports = {
       }
     ]
   },
+
   plugins: [
     new CopyWebpackPlugin([
       { context: sourceDirectory, from: 'image/**/*' },
