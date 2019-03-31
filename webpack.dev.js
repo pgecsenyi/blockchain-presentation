@@ -1,12 +1,11 @@
-const path = require('path');
-const webpack = require('webpack');
 const merge = require('webpack-merge');
 
 const common = require('./webpack.common');
 
 module.exports = merge(common, {
+  mode: "development",
   module: {
-    loaders: [
+    rules: [
       {
         enforce: 'pre',
         test: /\.js$/,
@@ -15,9 +14,7 @@ module.exports = merge(common, {
       }
     ]
   },
-
   devtool: 'source-map',
-
   // `watch: true` can be used instead of `devServer`
   devServer: { inline: true }
 });

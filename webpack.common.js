@@ -1,10 +1,10 @@
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
 const webpack = require('webpack');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-var sourceDirectory = path.join(__dirname, 'src');
-var distDirectory = path.join(__dirname, 'dist');
+const sourceDirectory = path.join(__dirname, 'src');
+const distDirectory = path.join(__dirname, 'dist');
 
 module.exports = {
   entry: path.join(sourceDirectory, 'js/bootstrap.js'),
@@ -12,9 +12,8 @@ module.exports = {
     path: distDirectory,
     filename: 'slideshow.js'
   },
-
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -22,11 +21,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        // use: [ 'style-loader', 'css-loader' ]
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [ 'css-loader' ]
-        })
+        use: [ MiniCssExtractPlugin.loader, 'css-loader' ]
       },
       {
         test: /\.(eot|ttf|woff|woff2)$/i,
@@ -41,15 +36,14 @@ module.exports = {
       }
     ]
   },
-
   plugins: [
     new CopyWebpackPlugin([
       { context: sourceDirectory, from: 'image/**/*' },
       { context: sourceDirectory, from: 'index.html' }
     ]),
-    new ExtractTextPlugin({
-      filename: 'style.css',
-      allChunks: true
+    new MiniCssExtractPlugin({
+      chunkFilename: "[id].css",
+      filename: "style.css"
     }),
     new webpack.ProvidePlugin({
       Chart: 'chart.js'
